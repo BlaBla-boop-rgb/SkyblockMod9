@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "customgui",
+  "version": "${version}",
+  "name": "Custom GUI",
+  "description": "Menü im Cytooxien-Stil nur für Cytooxien Skyblock: Taste (Standard H), Spawn, Shop-Link, Inselliste, Marktstand-HUD, R\u00FCbenpreis-Verlauf und ein-/ausblendbare Elemente mit Shift-Erklärungen.",
+  "authors": ["Luis"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.customgui.CustomGuiMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
